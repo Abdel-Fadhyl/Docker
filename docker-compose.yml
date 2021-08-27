@@ -1,0 +1,31 @@
+version: '3.2'
+
+services:
+
+ database:
+  build: ./db
+  networks:
+      - wifi
+  volumes:
+   - dbvol:/var/lib/mysql
+
+ php:
+   build: ./back
+   networks:
+        - wifi
+   ports:
+        - "7777:7777" 
+
+ front:
+    build: ./front
+    networks: 
+        - wifi
+    ports: 
+        - "8080:8080"
+
+volumes:
+   dbvol:
+
+networks:
+  wifi:
+    name: connecteur_1
