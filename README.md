@@ -43,7 +43,7 @@ Voici l'arboresence de notre sujet présent dans le dossier rtp-sys2 :
     
 
 ## Database
-Pour cette première partie, j'ai édité un **Dockerfile** pour configurer l'image du container **Database**. De plus j'ai éditer un fichier `.sql` comme demander dans le sujet ou dedans j'ai crée une `Database` ainsi qu'une `Table`. Pour finir, j'ai apeller le fichier `.sql` dans le **Dockerfile**
+Pour cette première partie, j'ai édité un **Dockerfile** pour configurer l'image du container **Database**. De plus j'ai éditer un fichier `.sql` comme demander dans le sujet ou dedans j'ai crée une `Database` ainsi qu'une `Table`. Pour finir, j'ai apeller le fichier `.sql` dans le **Dockerfile**.
     
 ## Back
 Pour cette seconde partie, j'ai édité un **Dockerfile** pour configurer l'image du container **Back**. Ensuite j'ai fait un fichier `.php` qui ce connecte à la base de donnée via `PDO` et pour finir on a inclut le fichier `.php` dans le **Dockerfile**.
